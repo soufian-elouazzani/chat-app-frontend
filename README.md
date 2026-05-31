@@ -2,8 +2,7 @@
 
 A ChatGPT-style chat app powered by open-source LLMs (Ollama). The system is split across multiple repositories — each service is independent, containerized, and designed to scale.
 
-> Built to demonstrate **system design**, **async processing**, **caching**, **message queues**, and **infrastructure as code** — useful as a portfolio project for backend/platform engineering.
-
+> Built to demonstrate **system design**, **async processing**, **caching**, **message queues**, and **infrastructure as code** 
 ---
 
 ## Table of Contents
