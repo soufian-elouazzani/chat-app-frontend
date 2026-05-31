@@ -31,7 +31,7 @@ Users register, log in, create chat sessions, and send messages to open-source m
 The backend never blocks on slow inference. Messages are processed **asynchronously** via a task queue. The frontend polls for results until the AI reply is ready.
 
 ```
-┌─────────────┐     HTTP/JWT      ┌──────────────┐     RabbitMQ     ┌────────────┐     HTTP      ┌────────┐
+┌─────────────┐     HTTP/JWT     ┌──────────────┐     RabbitMQ    ┌────────────┐     HTTP       ┌────────┐
 │   React     │ ◄──────────────► │  API Gateway │ ───────────────► │   Worker   │ ────────────► │ Ollama │
 │  Frontend   │   poll task_id   │   (FastAPI)  │                  │            │               │        │
 └─────────────┘                  └──────┬───────┘                  └─────┬──────┘               └────────┘
