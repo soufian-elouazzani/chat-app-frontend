@@ -428,4 +428,4 @@ The backend must allow CORS from the frontend origin.
 
 ## License
 
-MIT *(or your chosen license)*
+MIT
