@@ -52,7 +52,6 @@ The application is split by concern. Each repo can be developed, tested, and dep
 | **chat-app-worker** | Consumes queue, calls Ollama, writes to DB/cache | Planned |
 | **chat-app-infra** | Docker Compose, Terraform, Ansible, Kubernetes manifests | Planned |
 
-> Replace the placeholder repo names above with your actual GitHub URLs as you create them.
 
 ---
 
